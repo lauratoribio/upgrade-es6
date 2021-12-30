@@ -31,4 +31,5 @@
  const colors = ['rojo', 'azul', 'amarillo', 'verde', 'naranja'];
 
  let colorsCopy = [...colors]
- console.log("colorsCopy: ", colorsCopy.splice(1, 1))
+ colorsCopy.splice(2,1)
+ console.log("colorsCopy: ", colorsCopy)
